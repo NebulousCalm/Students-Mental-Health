@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Statistics</title>
+
+    <!-- CSS and JS -->
+    {% block scripts %}
+        <script src="https://kit.fontawesome.com/d13028e86d.js" crossorigin="anonymous"></script> <!-- For Logos -->
+        <script defer src="{{ url_for('static', filename='js/index.js')}}"></script>
+    {% endblock %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/statistics.css')}}">
+</head>
+<body>
+    <div class="container">
+        <h1 id="title">Feelings of Hopelessness</h1>
+        <h2 id="percentage">36.7%</h2>
+        <h2 id="age">12-17 Years</h2>
+    </div>
+    <div class="container">
+        <h1 id="title">Major Depressive Episode</h1>
+        <h2 id="percentage">15.1%</h2>
+        <h2 id="age">12-17 Years</h2>
+    </div>
+    <div class="container">
+        <h1 id="title">Substance Use Disorder</h1>
+        <h2 id="percentage">4.1%</h2>
+        <h2 id="age">12-17 Years</h2>
+    </div>
+    <div class="container">
+        <h1 id="title">Alcohol Use Disorder</h1>
+        <h2 id="percentage">1.6%</h2>
+        <h2 id="age">12-17 Years</h2>
+    </div>
+    <div class="container">
+        <h1 id="title">Illicit Drug Use Disorder</h1>
+        <h2 id="percentage">3.2%</h2>
+        <h2 id="age">12-17 Years</h2>
+    </div>
+    <div class="container">
+        <h1 id="title">Seriously Considered Attempting Suicide</h1>
+        <h2 id="percentage">18.8%</h2>
+        <h2 id="age">12-17 Years</h2>
+    </div>
+    <div class="container">
+        <h1 id="title">Made a Suicide Plan</h1>
+        <h2 id="percentage">15.7%</h2>
+        <h2 id="age">12-17 Years</h2>
+    </div>
+    <div class="container">
+        <h1 id="title">Attempted Suicide</h1>
+        <h2 id="percentage">8.9%</h2>
+        <h2 id="age">12-17 Years</h2>
+    </div>
+</body>
+</html>

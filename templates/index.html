@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Students Mental Health</title>
+    <!-- CSS and JS -->
+    {% block scripts %}
+        <script src="https://kit.fontawesome.com/d13028e86d.js" crossorigin="anonymous"></script> <!-- For Logos -->
+        <script defer src="{{ url_for('static', filename='js/index.js')}}"></script>
+    {% endblock %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css')}}">
+
+</head>
+<body>
+    <div id="box">
+        <a class="title" href="/About">About</a>
+    </div>
+
+    <div id="box">
+        <a class="title" href="/Statistics">Statistics</a>
+    </div>
+
+    <div id="box">
+        <a class="title" href="/More">Learn More</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About</title>
+
+    <!-- CSS and JS -->
+    {% block scripts %}
+        <script src="https://kit.fontawesome.com/d13028e86d.js" crossorigin="anonymous"></script> <!-- For Logos -->
+        <script defer src="{{ url_for('static', filename='js/index.js')}}"></script>
+    {% endblock %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/about.css')}}">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 id="title">Students Mental Health</h1>
+            <a id="author" href="https://www.github.com/NebulousCalm">-- Zach Richman --</a>
+        </div>
+        <div class="text">
+            As a student, mental health comes up a lot. But it is said to be said, stated to be stated, 
+            talked about just to be talked about. Nothing comes from it. A poster won't remove depression. A sign 
+            won't stop anxiety. What is done to talk about student mental health is non-existent. It exists, yes, but 
+            no one wants to change anything. Do anything about it. <b>No one truly seems to care.</b> 36.7% of children (Aged 12-17) 
+            have feelings of hopelessness. 8.9% attempt suicide. Is that not enough to warrant a bigger care about this?
+            These things don't fix themselves. People need help. Lets stop making it so hard to get it. This site is meant
+            to bring awareness to student mental health and that more needs to be done about it. 
+        </div>
+    </div>
+</body>
+</html>
